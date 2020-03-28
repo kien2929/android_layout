@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="#222222">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="LifeCycle"
+                android:gravity="center_vertical"
+                android:textColor="#fafafa"
+                android:textSize="30sp"></TextView>
+        </Toolbar>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        android:layout_below="@+id/topPanel">
+    </RelativeLayout>
+</RelativeLayout>
